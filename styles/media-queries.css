@@ -1,6 +1,5 @@
-@media  (max-width: 615px) { 
-
-
+@media (max-width: 615px) {
+    
     /* navigation-wrapper */
     .navigation-wrapper {
         flex-direction: column;
@@ -60,6 +59,10 @@
         margin-bottom: 5px;
     }
 
+    .navigation-wrapper > .right-column > .btn , .btn-icon {
+        height: 20;
+    }
+
     /* middle-container */
 
     .middle-container {
@@ -78,7 +81,7 @@
         font-size: 1em;
         line-height: 1.20em;
     }
-   
+
     .btn1 , .btn2 {
         font-size: 1em !important;
         padding: 20px !important;
@@ -88,7 +91,7 @@
     .btn2 {
         margin-top: 10px;
     }
-  
+
     .middle-container > .rigth-wrapper {
         margin-left: 1em;
     }
@@ -110,15 +113,6 @@
     }
     .footer > .links > .btnfooter b {
         font-size: 1em;
-    }
-    
-    
-    
-
-
-    
-
-    
-
 }
+
 
