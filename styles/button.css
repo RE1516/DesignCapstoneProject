@@ -12,62 +12,62 @@
     border: 3px #d3d3d3 solid;
 }
 
+/* navigation-wrapper - center-column - Button Spark */
+
+.links-wrapper > .btn-spark {
+    background-color: transparent;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    color: #b3b3b3;
+    font-size: 1em;
+}
+
+#iconspark {
+    margin-left: 20px
+}
+
+.links-wrapper > .btn-spark:active  {
+    transform: scale(1.10);
+}
+
+.links-wrapper > .btn-spark:hover {
+    border: 1px #f2f2f2 solid; 
+    transition:2s;
+}
+
+
 /* navigation-wrapper - Right-Column - Buttom */
 
-.right-column > .btn , .btn-icon {
-    margin-left: 80px;
-    font-size: 1.5em;
-}
-
-.right-column > .btn  {
+.right-column > .btn {
+    font-size: 1.10em;
     background-color: #4d4d4d;
     color: white;
-    padding: 5px 20px;
-}
-
-.right-column > .btn:hover { 
-    background-color:#808080;
+    margin-right: 2em;
+    margin-top: 8px;
+    height: 3em;
+    width: 8em;
 }
 
 .right-column > .btn:nth-child(1){
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-content: center;
-    padding: 23px;
+} 
+
+.right-column > .bntcreate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-spark {
-    color: #b3b3b3;
-    margin-left: 60px;
-    margin-top: -6px;
-    font-size: 1.5em;
-    font-weight: bold;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-#iconspark {
-    margin-left: 10px
-}
-
-.btn-spark:active { 
-    transform: scale(1.10);
-}
-
-.btn-spark:hover { 
-    border: 1px #f2f2f2 solid; 
-    transition:1s;
-}
 
 /* navigation-wrapper - Right-Column - Icon Button Create - */
 
 #iconbox {
     color:#009900;
     font-size: 1.55em;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 /* navigation-wrapper - Right-Column - Icon Button Search*/
@@ -77,14 +77,13 @@
     border:none;
     outline: none;
     cursor: pointer;
-    padding: 25px;
-}
-.btn-icon {
+    padding: 15px;
     background-color: Transparent;
     background-repeat:no-repeat;
     cursor:pointer;
     overflow: hidden;
     outline:none;
+    margin-right: 2em;
 }
 
 #search {
@@ -107,14 +106,13 @@
 .box > .btn1 , .btn2 {
     font-weight: bold;
     font-size: 1.5em;
-    padding: 10px 40px;
+    padding: 10px 20px;
     margin-right: 1em;
 }
 
 .box > .btn1 { 
     background: #6fdc6f;
     color: black;
-
 }
 
 .box > .btn1:hover { 
@@ -128,7 +126,8 @@
 
 .box > .btn2:hover { 
     background-color: grey;
-    }
+}
+
 
 /* Button - Footer - links */
 
@@ -137,7 +136,9 @@
     color: #d9d9d9; 
     border: 1px #808080 solid;
     border-radius: 1px;
-    font-size: 1.30em;
+    font-size: 1.10em;
+    font-weight: bold;
+    height: 60px;
 }
 
 

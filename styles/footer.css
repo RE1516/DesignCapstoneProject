@@ -1,12 +1,11 @@
 
 .footer {
     background-color: black;
-    height: 285px; 
+    height: 145px; 
 }
 
 .links {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 60px;
     justify-content: space-between;
 }
