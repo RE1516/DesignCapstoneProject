@@ -1,5 +1,6 @@
 @media  (max-width: 615px) {
 
+    /* navigation-wrapper */
     .navigation-wrapper {
         flex-direction: column;
         height: 100%;
@@ -9,6 +10,7 @@
         order: 1;
         margin-top: 5px;
         margin-bottom: 5px;
+        float: left;
     }
 
     .navigation-wrapper > .center-column {
@@ -16,25 +18,51 @@
         width: 100%;
     }
 
-    .links-wrapper {
+    .navigation-wrapper > .center-column> .nav-link {
         flex-direction: column;
-        /* margin-top: 20px; */
+        justify-content: center;
+        align-items: center;
     }
 
-    .links-wrapper > .nav-link {
+    .center-column > .links-wrapper > .nav-link {
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 1em;
         width: 100%;
     }
 
-    .btn-spark {
+    .center-column > .links-wrapper > .btn-spark {
         flex-direction: column;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 6px;
         font-size: 1em;
         width: 100%;
     }
+    #iconspark {
+        margin-left: 0.8px
     }
+
+    .navigation-wrapper > .right-column  {
+        order: 3;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-column > .btn , .btn-icon {
+        font-size: 1em;
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    /* middle-container */
+
+    
+
+    
 
 }

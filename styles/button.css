@@ -12,7 +12,7 @@
     border: 3px #d3d3d3 solid;
 }
 
-/* navigation-wrapper - Button - center-Column */
+/* navigation-wrapper - Right-Column - Buttom */
 
 .right-column > .btn , .btn-icon {
     margin-left: 80px;
@@ -27,14 +27,6 @@
 
 .right-column > .btn:hover { 
     background-color:#808080;
-}
-
-.right-column > .btn-icon {
-    background-color: transparent;
-    border:none;
-    outline: none;
-    cursor: pointer;
-    padding: 25px;
 }
 
 .right-column > .btn:nth-child(1){
@@ -80,6 +72,13 @@
 
 /* navigation-wrapper - Right-Column - Icon Button Search*/
 
+.right-column > .btn-icon {
+    background-color: transparent;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 25px;
+}
 .btn-icon {
     background-color: Transparent;
     background-repeat:no-repeat;
