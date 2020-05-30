@@ -1,0 +1,157 @@
+.btn {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5%;
+    border:none;
+    transition: 1s;
+}
+
+.btn:active { 
+    border: 3px #d3d3d3 solid;
+}
+
+/* navigation-wrapper - Button - center-Column */
+
+.right-column > .btn , .btn-icon {
+    margin-left: 80px;
+    font-size: 1.5em;
+}
+
+.right-column > .btn  {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 5px 20px;
+}
+
+.right-column > .btn:hover { 
+    background-color:#808080;
+}
+
+.right-column > .btn-icon {
+    background-color: transparent;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 25px;
+}
+
+.right-column > .btn:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 23px;
+}
+
+.btn-spark {
+    color: #b3b3b3;
+    margin-left: 60px;
+    margin-top: -6px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#iconspark {
+    margin-left: 10px
+}
+
+.btn-spark:active { 
+    transform: scale(1.10);
+}
+
+.btn-spark:hover { 
+    border: 1px #f2f2f2 solid; 
+    transition:1s;
+}
+
+/* navigation-wrapper - Right-Column - Icon Button Create - */
+
+#iconbox {
+    color:#009900;
+    font-size: 1.55em;
+    margin-left: 10px
+}
+
+/* navigation-wrapper - Right-Column - Icon Button Search*/
+
+.btn-icon {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#search {
+    color: #8c8c8c;
+    transform: scale(2);
+}
+
+.btn-icon:active { 
+    transform: scale(1.5);
+}
+
+.btn-icon:hover { 
+    border: 1px #f2f2f2 solid; 
+    transition:2s;
+}
+
+
+/* middle-container - right wrapper - Button Images */
+
+.box > .btn1 , .btn2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px 40px;
+    margin-right: 1em;
+}
+
+.box > .btn1 { 
+    background: #6fdc6f;
+    color: black;
+
+}
+
+.box > .btn1:hover { 
+    background-color: #99ff99;
+}
+
+.box > .btn2 {
+    background: black;
+    color: white;
+}
+
+.box > .btn2:hover { 
+    background-color: grey;
+    }
+
+    
+
+
+/* Button - Footer - links */
+
+.btnfooter {
+    background-color: #333333;
+    color: #d9d9d9; 
+    border: 1px #808080 solid;
+    border-radius: 1px;
+    font-size: 1.30em;
+}
+
+
+.footer > .links > .btnfooter b {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.50em;
+}
+
+.links > .btnfooter:hover { 
+    background-color: grey;
+}
+

@@ -1,0 +1,52 @@
+/* middle-container */
+
+.middle-container {
+    background: -webkit-radial-gradient( #595959, #1a1a1a);
+    color: #cbcbcb;
+    padding: 40px;
+    display: flex;
+    height: 560px;
+}
+
+/* left-wrapper */
+
+.left-wrapper  {
+    display: flex;
+    flex-direction: column;
+    font-family: "Comic Neue";
+}
+
+.left-wrapper  > .p1 {
+    font-size: 2.50em;
+    color: #bfbfbf;
+    line-height: 1em;
+}
+
+.p1 > b {
+    color:white;
+}
+
+.left-wrapper  > .p2 {
+    font-size: 1.60em;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin-top: 2px;
+} 
+
+
+/* rigth-wrapper */
+
+.rigth-wrapper {
+    margin-left: 15em;
+}
+.website {
+    height: 540px;
+    width: 1000px;
+}
+
+.rigth-wrapper > .p3 {
+    color:white
+}
+.rigth-wrapper > .p3 >  .code {
+    color:#33ccff
+}
