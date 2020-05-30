@@ -1,4 +1,5 @@
-@media  (max-width: 615px) {
+@media  (max-width: 615px) { 
+
 
     /* navigation-wrapper */
     .navigation-wrapper {
@@ -16,6 +17,7 @@
     .navigation-wrapper > .center-column {
         order: 2;
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .navigation-wrapper > .center-column> .nav-link {
@@ -51,18 +53,72 @@
         align-items: center;
     }
 
-    .right-column > .btn , .btn-icon {
+    .navigation-wrapper > .right-column > .btn , .btn-icon {
         font-size: 1em;
         width: 100%;
         margin-left: 10px;
         margin-bottom: 5px;
-
     }
 
     /* middle-container */
+
+    .middle-container {
+        width: 100%;
+    }   
+    
+    .middle-container > .left-wrapper > .p1 , .p2{
+        margin-left: 10px;
+    }
+    .middle-container > .left-wrapper > .p1 , .p2{
+        font-size: 1.10em;
+        line-height: 1.20em;
+    }
+
+    .middle-container > .left-wrapper > .p2 {
+        font-size: 1em;
+        line-height: 1.20em;
+    }
+   
+    .btn1 , .btn2 {
+        font-size: 1em !important;
+        padding: 20px !important;
+        margin-left: 20px !important;
+    }
+
+    .btn2 {
+        margin-top: 10px;
+    }
+  
+    .middle-container > .rigth-wrapper {
+        margin-left: 1em;
+    }
+
+    .middle-container > .rigth-wrapper > .website {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        height: 65px; 
+    }
+    .links {
+        height: 100%;
+    }
+    .btnfooter {
+        font-size: 1em;
+    }
+    .footer > .links > .btnfooter b {
+        font-size: 1em;
+    }
+    
+    
+    
+
 
     
 
     
 
 }
+
