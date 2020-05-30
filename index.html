@@ -15,65 +15,99 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href= "styles/top.css">
     <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/middle.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    
+    
+    <script src="myScript.js"></script>
 
 
 </head>
 <body>
+
     <div class="navigation-wrapper">
 
-        
-       <div class="left-column">
-            <img src="imges/Codepen.png" alt="Logo">
-                <div class="logo-home">
-                    <a href="index.html"></a>
-                </div> 
-            </img>    
+        <div class="left-column">
+            <a href="index.html"><img src="imges/Logo/Codepen.png" alt="Logo"></a>    
         </div> 
-            
 
         <div class="center-column">
-               
-            <div class="index-link"> 
+            <div class="link-index"> 
                 <h1>Explore</h1>
             </div>
 
-            <div class="iland">
-            
+            <div class="links-wrapper">
                 <div class="nav-link"> 
-                    <a href="Pens.html" alt="Pens">Pens</a>
+                    <a href="pens.html" alt="Pens">Pens</a>
                 </div>  
 
                 <div class="nav-link">
-                    <a href="Project.html" alt="Project">Project</a>
+                    <a href="projects.html" alt="ProjectS">Project</a>
                 </div>
 
                 <div class="nav-link">
-                    <a href="Post.html" alt="Post">Post</a>
+                    <a href="post.html" alt="Post">Post</a>
                 </div>
 
-                <div class="nav-spark" alt="Spark"> Spark
-                    <i class="fas fa-angle-down" width="1" height="1"></i>
+                <div class="nav-link">
+                    <a href="collections.html" alt="collections">Colletions</a>
                 </div>
+
+                <button class="btn-spark" alt="Spark">Spark<i class="fas fa-angle-down" id="iconspark"></i></button>
 
             </div>    
-
         </div>
 
         <div class="right-column">
-            
-            <button class="btn" alt="Create">Create
-                <i class="fas fa-angle-down" width="1" height="1"></i>
-            </button> 
-            
-            <button i class="fas fa-search" width="5" height="5" alt="search"></button>
-            
-            <button class="btn" class="btn" alt="Log in"> Log in </button> 
-        
-            <button type="btn" class="btn" alt="Sing in">Sing in </button>
-          
+            <button  class="btn" alt="create">
+                <span class="nav-text"> Create</span>
+                <i class="fas fa-angle-down" id="iconbox"></i>
+            </button>
+
+            <button class="btn-icon"> <i class="fas fa-search" id="search"></i></button>
+
+            <button class="btn" alt="Log in"> Log In </button> 
+
+            <button class="btn" alt="Sing in"> Sing Up </button>
         </div>
 
     </div>
+
+    <div class="middle-container">
+
+        <div class="left-wrapper">
+            <p class="p1"> CodePen is a <b>social development environment</b> for front-end designers and developers. &#128075; </p>
+            <p class="p2"> It´s the best place to build and deploy a website, show off your work, build test case, and find inspiration</p>
+            
+            <div class="box">
+                <button class="btn btn1" alt="Sing Up for Free"> Sing Up for Free </button> 
+                <button class="btn btn2" alt="Learn More" > Learn More </button> 
+            </div>
+        </div>
+
+        <div class="rigth-wrapper">
+            <p class="p3">This is <span class="code">CodePen Projects</span>!</p>
+            <img src="imges/middle/codepenwebsite.png" alt="website" class="website"></img>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="links">
+            <button class="btn btnfooter" alt="codePen for Teams"> CodePen for <b>Teams</b> </button> 
+            <button class="btn btnfooter" alt="codePen for Education"> CodePen for <b>Education</b> </button> 
+            <button class="btn btnfooter" alt="codePen for Privacy"> CodePen for <b>Privacy</b> </button> 
+            <button class="btn btnfooter" alt="codePen for Writting"> CodePen for <b>Writting</b> </button> 
+        </div>
+    </div>    
+
+
+
+
+    
 
 
 </body>
