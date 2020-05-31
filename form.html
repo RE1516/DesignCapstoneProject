@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePen</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Lustria&display=swap" rel="stylesheet">
+   
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href= "styles/top.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/middle.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" media=" screen and (min-width: 715px)" href="styles/media-queries2.css" />
+    <link rel="stylesheet" media=" screen and (max-width: 715px)" href="styles/media-queries1.css" />
+    <script src="JS/form.js"></script>
+    <script src="http://code.jquery.com/jquery-git2.js"></script>
+
+
+</head>
+<body>
+
+    <nav class="navigation-wrapper">
+
+        <div class="left-column">
+            <a href="index.html"><img src="imges/Logo/Codepen.png" alt="Logo"></a>    
+        </div> 
+
+        <div class="center-column">
+
+            <div class="link-index"> 
+                <h1>Explore</h1>
+            </div>
+
+            <div class="links-wrapper">
+                <div class="nav-link"> 
+                    <a href="pens.html" alt="Pens">Pens</a>
+                </div>  
+
+                <div class="nav-link">
+                    <a href="projects.html" alt="ProjectS">Project</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="post.html" alt="Post">Post</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="collections.html" alt="collections">Collections</a>
+                </div>
+
+                <button class="btn-spark" alt="Spark">Spark<i class="fas fa-angle-down" id="iconspark"></i></button>
+
+            </div>    
+        </div>
+
+        <div class="right-column">
+            
+            <button  class="btn bntcreate" alt="create"> Create <i class="fas fa-angle-down" id="iconbox"></i></button>
+
+            <button class="btn-icon"> <i class="fas fa-search" id="search"></i></button>
+
+            <button class="btn bntlogin" alt="Log in"> Log In </button> 
+
+            <button class="btn bntsingup" alt="Sign in"> Sign Up </button>
+        </div>
+
+    </nav>
+    
+    <div class="middle-container">
+
+        <div class="p1 text-sign-up">
+            <h1>Join us! <br> <p> &#128077; </p></h1>
+        </div>
+
+        <div class="box-registry">
+
+            <form id="form" action="/index.html" onsubmit="submitForm()">
+    
+                <div class="header">
+                    <h2>Sign Up Free</h2>
+                </div>
+    
+                <div> 
+                    <label for="fullName"> Your name </label>
+                    <br>
+                    <input type="text" id="fullName" placeholder="Your name">
+                    
+                </div>
+    
+                <div>
+                    <label for="email">Your email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+
+                <div>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+    
+                <div>
+                    <label for="message">Describe yourself!</label>
+                    <br>
+                    <textarea name="message" id="message" placeholder="My hobbie is..."></textarea>
+                    
+                </div>
+
+                <div>
+                    <label for="email">Do you want our newsletter?
+                        <input  type="checkbox">
+                    </label>
+                </div>
+                <br>
+                <div class="centered-btn-wrapper">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+
+            </form>
+        </div>
+        
+
+    </div>
+    
+
+    <footer class="foot">
+        <div class="links">
+            <button class="btn btnfoot" alt="codePen for Teams"> CodePen for <b>Teams</b> </button> 
+            <button class="btn btnfoot" alt="codePen for Education"> CodePen for <b>Education</b> </button> 
+            <button class="btn btnfoot" alt="codePen for Privacy"> CodePen for <b>Privacy</b> </button> 
+            <button class="btn btnfoot" alt="codePen for Writting"> CodePen for <b>Writting</b> </button> 
+        </div>
+    </footer>    
+
+</body>
+</html>
+
+
