@@ -1,4 +1,4 @@
-@media  (min-width: 715px) and (max-width: 2020px)
+@media  (min-width: 716px) 
 {
     html, body{
         height: 100%;
@@ -25,101 +25,14 @@
         height: 16%;
         background-color: #000d1a;
     }
-    /*TOP CSS*/
-    .left-column img {
-        width: 300px;
-        height: 100%;
-    } 
-    
-    .right-column, .center-column, .links-wrapper{
-        display: flex;
-    }
-    .center-column {
-        flex-direction: column;
-        flex-grow: 2;
-        margin-left: 2em;
-    }
-    .links-wrapper{
-        align-content: space-between;
-    }
-    .nav-link {
-        margin-right: 30px;
-        text-align: center;
-        display: flex;
-        font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
-        font-size: 1.30em;
-        font-weight: bold;
-    }
-    .nav-link a {
-        color: white; 
-        text-decoration: none;
-        transition: 0.2s;
-    }
-    .nav-link a:hover{
-        letter-spacing: 2px;
-    }
-    
-    .link-index {
-        font-family:'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
-        color: yellow;
-        margin-left: 3px;
-        text-transform: uppercase;
-        font-size: 0.60em;
-    }
-    
-    /*MIDDLE css*/
-    
-    
-    .left-wrapper  {
-        display: flex;
-        flex-direction: column;
-        font-family: "Comic Neue";
-        margin: 2em;
-    }
-    
-    .left-wrapper  > .p1 {
-        font-size: 2.30em;
-        color: #bfbfbf;
-        line-height: 1.10em;
-    }
-    
-    .p1 > b {
-        color:white;
-    }
-    
-    .left-wrapper  > .p2 {
-        font-size: 1.60em;
-        line-height: 1.5em;
-        font-weight: bold;
-        margin-top: 2px;
-    } 
-    
-    
-    /* rigth-wrapper */
-    
-    .rigth-wrapper {
-        margin-left: 3em;
-    }
-    .website {
-        position: relative;
-        height: 100%;
-        width: 55rem;
-    }
-    
-    .rigth-wrapper > .p3 {
-        color:white;
-        font-size: 1em;
-        margin-bottom: 2px;
-    }
-    .rigth-wrapper > .p3 >  .code {
-        color:#33ccff
-    }
-    
-    /* Footer */
+
+      /* Footer */
+
     .links {
         width: 100%;
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         justify-content: space-between;
     }
+  
 }
