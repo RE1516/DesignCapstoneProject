@@ -1,11 +1,32 @@
-@media (max-width: 615px) {
-
+@media  (max-width: 1020px)
+{
+    nav, .middle-container, footer{
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
     
+    nav{
+        height: 8%;
+    }
+    .middle-container{
+        height: 65%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        height: 27%;
+    }
+
     /* navigation-wrapper */
+
+    .right-column, .center-column, .links-wrapper{
+        display: flex;
+    }
+
     .navigation-wrapper {
         flex-direction: column;
-        height: 100%;
-        columns:100%;
     }
     .navigation-wrapper > .left-column {
         order: 1;
@@ -15,7 +36,6 @@
 
     .navigation-wrapper > .center-column {
         order: 2;
-        width: 100%;
     }
 
     .navigation-wrapper > .center-column> .nav-link {
@@ -28,7 +48,6 @@
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 1em;
-        width: 100%;
     }
 
     .center-column > .links-wrapper > .btn-spark {
@@ -39,21 +58,17 @@
         align-items: center;
         margin-right: 8px;
         font-size: 1em;
-        width: 100%;
     }
 
     #iconspark {
-        margin-left: 0.8px
+        margin-left: 1px
     }
 
     .navigation-wrapper > .right-column  {
         order: 3;
-        justify-content: center;
-        align-items: center;
     }
 
     .navigation-wrapper > .right-column > .btn , .btn-icon {
-        width: 0px;
         font-size: 1em;
         font-size: 1em;
         width: 6em;
@@ -63,17 +78,13 @@
         padding: 30px;
         height: 10px;
     }
-   
-    /* middle-container */
-
-    .middle-container {
-        width: 100%;
-    }   
+    
+    /* middle-container */ 
     
     .middle-container > .left-wrapper > .p1 , .p2 {
         margin-left: 10px;
         font-size: 1.10em;
-        line-height: 1.20em;
+        line-height: 1.10em;
     }
 
     .middle-container > .left-wrapper > .p2 {
@@ -82,33 +93,32 @@
     }
 
     .btn1 , .btn2 {
+        height: 50%;
+        width: 50%;
         font-size: 1em !important;
-        padding: 20px !important;
-        margin-left: 20px !important;
-    }
-
-    .btn2 {
-        margin-top: 10px;
+        margin-bottom:10px;
+        
     }
 
     .middle-container > .rigth-wrapper {
-        margin-left: 1em;
+        margin-left: 3em;
     }
 
     .middle-container > .rigth-wrapper > .website {
-        height: 100%;
-        width: 100%;
+        position: relative;
+        width: 100%
     }
 
     /* Footer */
-    .footer {
-        position: absolute; 
-    }
 
     .btnfooter {
         font-size: 1em;
+        width: 100%;
+        height: 60%;
+        padding-right: 2em;
     }
+
     .footer > .links > .btnfooter b {
         font-size: 1em;
-    }
+    }     
 }
