@@ -12,17 +12,17 @@
     }
     
     nav{
-        height: 8%;
+        height: 12%;
         background-color: black;
         
     }
     .middle-container{
-        height: 65%;
+        height: 72%;
         background:-webkit-radial-gradient( #595959, #1a1a1a);
         color: #cbcbcb;
     }
     footer{
-        height: 27%;
+        height: 16%;
         background-color: #000d1a;
     }
     /*TOP CSS*/
@@ -115,8 +115,7 @@
         color:#33ccff
     }
     
-    /*footer tal cual*/
-    
+    /* Footer */
     .links {
         width: 100%;
         display:grid;
